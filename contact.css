@@ -1,0 +1,943 @@
+   *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar{
+         display: flex;
+          justify-content: space-between;
+          backdrop-filter: blur(70px);
+          border-bottom: 1px solid #2A2020;
+          background:  rgba(10, 10, 30, 0.25);
+          background: transparent;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          align-items: center;
+        }
+        .sectionbar{
+            /* margin-top: 100px; */
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .sectionbar  li{
+            list-style: none;
+            text-decoration: none;
+            font-size: -5x;
+            margin-top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button1{
+          margin-right: 60px;
+          margin-top: 15px;
+          padding: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: -10px;
+          font-weight: bold;
+          font-size: 17px;
+          border-radius: 20px;
+          border: 2px solid transparent;
+          background:
+           linear-gradient(#101014,#101014) padding-box,
+           linear-gradient(120deg, #ff5da2, #7c52ff,
+           #3fb8ff) border-box;  
+          color:#fff;
+          transition: 0.3s;
+        }
+
+        .button1:hover{
+            box-shadow: 0 0 10px #2A2020,
+                        0 0 10px #ff5da2,
+                        0 0 10px #2A2020;
+        }
+
+        .navbar ul{
+            gap: 30px;
+        }
+
+        .sectionbar a{
+            text-decoration: none;
+             color: white;
+             transition: 0.3s;
+             font-size: 18px;
+        }
+        .heading1{
+
+            margin-left: 40px;
+            margin-top: 33px;
+        }
+        .heading1 img{
+            width: 65px;
+            height: auto;
+            background: transparent;
+            mix-blend-mode: screen;
+            margin-top: -10px;
+        }
+       
+
+
+        .sectionbar  li:hover {
+         color:  white;
+         position: relative;
+         transition: 0.2s linear;
+        }
+        .sectionbar li a:hover{
+         text-shadow: 0 0 8px white;
+        }
+
+        .sectionbar li a::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            width: 100%;
+            height: 2px;
+            background: white;
+            box-shadow: 0 0 8px white;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .sectionbar li a:hover::after{
+            transform: scaleX(1);
+        }
+         body{
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(
+            135deg,
+            #121212 0%,
+            #1C1C1C 45%,
+            #3A171A 75%,
+            #8B1E25 100%);
+            color: white;
+        }
+
+        .get{
+            /* margin-top: 150px; */
+            padding-top: 100px;
+             text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+        
+        .get1{
+            color: #fff;
+            margin-right: 5px;
+        }
+
+        .touch{
+            color: #3fb8ff;
+        }
+
+        .request{
+           padding-top: 30px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-bottom: 70px;
+        }
+
+         .bar{
+            font-size: 30px;
+            margin-right: 30px;
+            display: none;
+         }
+
+         .contact_bar{
+            align-content: center;
+            justify-items: center;
+            
+         }
+
+         .contact {
+            width: 1100px;
+            height: 550px;
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.538);
+            display: flex;
+            justify-content: space-around;
+            padding-top: 100px;
+         }
+
+
+        
+
+         .address{
+        padding-bottom: 20px;
+        line-height: 1.5;
+         }
+
+         .address p{
+             color: rgba(255, 255, 255, 0.668);
+         }
+
+         .address h2{
+           margin-right: 60px;
+         }
+
+         .Location{
+            margin-left: -26px;
+            letter-spacing: 2px;
+         }
+
+         .Location i{
+            color: #00A86B;
+         }
+
+         .phone_i{
+             margin-left: -26px;
+             letter-spacing: 2px;
+         }
+
+         .phone p{
+             color: rgba(255, 255, 255, 0.668);
+         }
+
+         .phone_i i{
+            color: skyblue;
+         }
+
+         .Whatsapp{
+            margin-left: -38px;
+            letter-spacing: 2px;
+         }
+
+         .Whatsapp i{
+            color: #00A86B;
+            font-size: 30px;
+         }
+
+         .whats p{
+             color: rgba(255, 255, 255, 0.668);
+         }
+
+         .email_i{
+            margin-left: -26px;
+            letter-spacing: 2px;
+         }
+
+         .email p{
+             margin-bottom: 10px;
+             color: rgba(255, 255, 255, 0.668);
+         }
+
+         .email_i i{
+            color: orangered;
+         }
+
+         .connect{
+           margin-left: -26px;
+           letter-spacing: 4px;
+           margin-bottom: 13px;
+           
+         }
+
+         .connect i{
+            color: blue;
+            font-size: 30px;
+         }
+
+
+         .fli  i{
+            font-size: 23px;
+            padding: 8px;
+    
+         }
+
+         .fli button{
+             border-radius: 50%;
+             margin-right: 5px;
+         }
+
+          .instagram i{
+            color: black;
+            border-color: transparent;
+        }
+
+         .instagram:hover{
+            color: #D62976;
+            /* color: #101014; */
+            background-color:#D62976;
+            border-color: #D62976;
+        }
+
+        .instagram:hover i{
+            color: white;
+            /* color: #101014; */
+        }
+
+        .linkdin i{
+            color: black;
+            border-color: transparent;
+        }
+
+        .linkdin:hover{
+             color: #0A66C2;
+            background-color: #0A66C2;
+            border-color: #0A66C2;
+        }
+
+        .linkdin:hover i{
+            color: white;
+        }
+
+        .facebook i{
+            color: black;
+            border-radius: 50%;
+        }
+
+        .facebook:hover i{
+            color: white;
+        }
+
+        .facebook :hover {
+             color: #0A66C2;
+            background-color: #0A66C2;
+            border-color: #0A66C2;
+        }
+
+         .message_box{
+            width: 450px;
+            height: 520px;
+            border: 2px solid rgba(255, 255, 255, 0.582);
+           justify-items: center;
+           border-radius: 20px;
+           
+         }
+
+         .message_box h1{
+            padding-top: 30px;
+            padding-bottom: 25px;
+            letter-spacing: 5px;
+         }
+
+         .details{
+            line-height: 25px;
+         }
+
+         .details input{
+            padding: 10px 80px;
+            border-radius: 30px;
+         }
+
+         .details h3{
+            letter-spacing: 2px;
+            padding-bottom: 2px;
+           margin-top: 15px;
+         }
+
+         .message-input{
+            height: 80px;
+            margin-bottom: 30px;
+         }
+
+         .send{
+            padding: 8px 20px;
+            margin-left: 10px;
+            border-radius: 10px;
+           font-size: 16px;
+         }
+
+        .send i{
+            color: #3fb8ff;
+            padding-right: 5px;
+        }
+
+        /* frequently asked questions section */
+          /* frequently asked questions section */
+
+        .question{
+            align-items: center;
+            padding-top: 130px;
+        }
+
+        .ask{
+            text-align: center;
+        }
+
+        .ask h1{
+            font-size: 53px;
+            padding-bottom: 15px;
+        }
+
+        .ask p{
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.603);
+        }
+
+        .ques{
+            color: #3fb8ff;
+        }
+
+        .select_que{
+            justify-items: center;
+            padding-top: 60px;
+        }
+
+        .question_bar{
+            justify-content: space-between;
+            display: flex;
+            width: 900px;
+            height: 80px;
+            border: 2px solid rgba(255, 255, 255, 0.582);
+            border-radius: 30px;
+            margin-bottom: 18px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .question_bar h2{
+            font-size: 20px;
+            margin-left: 25px;
+            color: rgba(255, 255, 255, 0.897);
+        }
+
+        .select{
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border-radius: 20%;
+            color: white;
+            margin-right: 30px;
+        }
+
+
+
+
+
+
+
+
+         .footer{
+            /* padding-top: 100px; */
+            margin-top: 200px;
+            display: flex;
+            padding-top: 100px;
+            justify-content: space-evenly;
+            background-color: black;
+            padding: 20px;
+            flex-direction: row;
+        }
+
+        .my_self h1{
+            padding-bottom: 18px;
+        }
+
+        .my_self p{
+            color: rgba(255, 255, 255, 0.531);
+        }
+
+        .f_s{
+        color: #4D8DFF; 
+        }
+
+          .f_icon i{
+         padding: 10px;
+         font-size: 18px;
+         gap: 5px;
+        }
+
+        .footer_icon{
+            padding-top: 20px;
+            /* padding-top: 20px; */
+            /* padding-bottom: 20px; */
+            /* align-items: center; */
+            /* text-align: center; */
+        }
+
+        .f_icon{
+            align-items: center;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            border-radius: 50%;
+            /* padding: 2px 4px; */
+        }
+
+        .linkdin_two a{
+            color: black;
+            list-style: none;
+            text-decoration: none;
+            border-color: transparent;
+        }
+
+         .linkdin_two:hover{
+            color: #0A66C2;
+            background-color: #0A66C2;
+            border-color: #0A66C2;
+        }
+
+        .linkdin_two:hover a{
+            color: white;
+        }
+
+
+        .insta_two a{
+            color: black;
+            list-style: none;
+            text-decoration: none;
+            border-color: transparent;
+        }
+
+         .insta_two:hover{
+            color: #D62976;
+            background-color:#D62976;
+            border-color: #D62976;
+        }
+
+        .insta_two:hover a{
+            color: white;
+        }
+
+         .git_hub a{
+            color: black;
+        }
+
+          .git_hub:hover{
+            color:white;
+            background-color:black;
+            border-color: black;
+        }
+
+        .git_hub:hover a{
+            color: white;
+        }
+
+        .Quick ul li{
+          list-style: none;
+          line-height: 1.7;
+          padding-top: 15px;
+          font-weight: bold;
+        }
+
+        .Quick a{
+            color: rgba(255, 255, 255, 0.692);
+            text-decoration: none;
+        }
+
+        .logo_f i{
+          font-size: 20px;
+          color: #4D8DFF;
+        }
+
+        .footer_get h2{
+            padding-top: 20px;
+        }
+
+
+
+     
+
+        
+        @media only screen and (max-width:1000px){
+             .bar{
+                display: flex;
+            }
+
+            .navbar{
+                width: 100%;
+            }
+
+            .navbar ul{
+                display: none;
+            }
+
+            .get{
+                font-size: 20px !important;
+            }
+
+            .request{
+                font-size: 16px;
+            }
+
+            .contact{
+                width: 490px;
+                height: auto;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;   
+            }
+
+            .message_box{
+                margin-top: 30px;
+                width: 350px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+            .details input{
+                padding: 10px 15px;
+            }
+
+              .question_bar{
+                width: 600px;
+                height: 60px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                align-content: space-around;
+                justify-content: center;
+            }
+
+             .question_bar h2{
+            font-size: 15px;
+            margin-left: 0px;
+            color: rgba(255, 255, 255, 0.897);
+        }
+
+         .ask h1{
+            font-size: 43px;
+            padding-bottom: 15px;
+        }
+
+
+
+          .footer{
+                margin-top: 100px;
+                /* flex-direction: column !important; */
+                flex-wrap: wrap;
+                display: flex !important;
+                align-items: center;
+                text-align: center;
+                justify-items: center;
+                justify-content: space-evenly;
+             }
+
+             .backend h1 {
+                font-size: 25px;
+             }
+
+             .Quick h1{
+                /* padding-top: 0px; */
+                display: flex;
+                flex-wrap: wrap;
+             }
+
+       
+
+    }
+
+
+        
+        @media only screen and (max-width:700px){
+             .bar{
+                display: flex;
+            }
+
+            .navbar{
+                width: 100%;
+            }
+
+            .navbar ul{
+                display: none;
+            }
+
+            .get{
+                font-size: 20px !important;
+            }
+
+            .request{
+                font-size: 16px;
+            }
+
+            .contact{
+                width: 450px;
+                height: auto;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;   
+            }
+
+            .message_box{
+                margin-top: 30px;
+                width: 350px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+            .details input{
+                padding: 10px 15px;
+            }
+
+            .question_bar{
+                width: 500px;
+                height: 50px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+              .question_bar h2{
+            font-size: 15px;
+            margin-left: 0px;
+            color: rgba(255, 255, 255, 0.897);
+        }
+
+         .ask h1{
+            font-size: 40px;
+            padding-bottom: 15px;
+        }
+
+          .footer{
+            margin-top: 70px;
+                flex-direction: column !important;
+                flex-wrap: wrap;
+                display: flex !important;
+                align-items: center;
+                text-align: center;
+                justify-items: center;
+                justify-content: center;
+             }
+
+             .backend h1 {
+                font-size: 25px;
+             }
+
+             .Quick h1{
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+             }
+
+        }
+
+
+
+        @media only screen and (max-width:500px){
+             .contact{
+                width: 290px;
+                height: auto;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;   
+            }
+
+            .message_box{
+                
+                width: 240px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+            .message_box h1{
+                font-size: 20px;
+            }
+
+
+            .details input{
+                padding: 8px 10px;
+            }
+
+            .details h3{
+                font-size: 15px;
+            }
+
+             .send{
+            padding: 7px 18px;
+            margin-left: 10px;
+            border-radius: 10px;
+           font-size: 12px;
+         }
+
+        .send i{
+            color: #3fb8ff;
+            padding-right: 3px;
+        }
+
+        .address h2{
+            font-size: 19px;
+        }
+
+        .connect{
+            font-size: 20px;
+        }
+
+        .fli button i{
+            font-size: 15px;
+        }
+
+          .question_bar{
+                width: 290px;
+                height: 40px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+              .question_bar h2{
+            font-size: 15px;
+            margin-left: 0px;
+            color: rgba(255, 255, 255, 0.897);
+        }
+
+         .ask h1{
+            font-size: 30px;
+            padding-bottom: 15px;
+        }
+
+          .footer{
+            margin-top: 50px;
+                flex-direction: column !important;
+                flex-wrap: wrap;
+                display: flex !important;
+                align-items: center;
+                text-align: center;
+                justify-items: center;
+                justify-content: center;
+             }
+
+             .backend h1 {
+                font-size: 25px;
+             }
+
+             .Quick h1{
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+             }
+        }
+
+
+
+
+         @media only screen and (max-width:300px){
+             .contact{
+                width: 250px;
+                height: auto;
+                align-items: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;   
+            }
+
+            .message_box{
+                
+                width: 200px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+            .message_box h1{
+                font-size: 12px;
+                letter-spacing: 0;
+            }
+
+
+            .details input{
+               padding: 2px 3px ;
+               
+            }
+
+            .details h3{
+                font-size: 12px;
+            }
+
+             .send{
+            padding: 3px 8px;
+            margin-left: 10px;
+            border-radius: 7px;
+           font-size: 13px;
+         }
+
+        .send i{
+            color: #3fb8ff;
+            padding-right: 3px;
+        }
+
+        .address h2{
+            font-size: 14px;
+        }
+
+        .connect{
+            font-size: 17px;
+        }
+
+        .fli button i{
+            font-size: 15px;
+        }
+
+        .address p{
+            font-size: 12px;
+        }
+
+        .Whatsapp i{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .connect i{
+            font-size: 20px;
+        }
+
+          .question_bar{
+                width: 200px;
+                height: 50px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+
+              .question_bar h2{
+            font-size: 15px;
+            margin-left: 0px;
+            color: rgba(255, 255, 255, 0.897);
+        }
+
+         .ask h1{
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+
+          .footer{
+            margin-top: 40px;
+                flex-direction: column !important;
+                flex-wrap: wrap;
+                display: flex !important;
+                align-items: center;
+                text-align: center;
+                justify-items: center;
+                justify-content: center;
+             }
+
+             .backend h1 {
+                font-size: 25px;
+             }
+
+             .Quick h1{
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+             }
+        }
