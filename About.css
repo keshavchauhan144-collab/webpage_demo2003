@@ -1216,6 +1216,11 @@ color: #3fb8ff;
                 /* align-items: center; */
             }
 
+            .web_developer {
+              width: 200px;
+              height: auto;
+            }
+
             .hero_section_image img{
               width: 240px !important;
               height: auto;
