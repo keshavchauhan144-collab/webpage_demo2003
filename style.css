@@ -176,7 +176,7 @@
         }
 
         .intro{
-            margin-left:20px;
+            /* margin-left:20px; */
             font-weight: 900;
             font-size: 30px;
             margin-top: 15px;
@@ -207,7 +207,7 @@
             color: #4D8DFF;
         }
         .self{
-            margin-left: 20px;
+            /* margin-left: 20px; */
             margin-top: 20px;
             letter-spacing: 2px;
             font-weight: bolder;
@@ -993,9 +993,7 @@
             .frontend{
                 padding-top: 50px;
             }
-            .container1{
-                padding-left: 20px;
-            }
+          
         
         }
 
