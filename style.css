@@ -20,7 +20,9 @@
         }
 
         .bar{
-            font-size: 30px;
+             margin-top: 10px;
+            font-size: 40px;
+            /* font-size: 30px; */
             margin-right: 30px;
             display: none;
         }
@@ -43,9 +45,10 @@
 
 
         .image img{
-        width: 400px;
+        width: 500px;
         height: auto;
          mix-blend-mode: screen;
+         /* background-color: #121212; */
          margin-top: 30px;
         }
 
@@ -363,6 +366,11 @@
             display: flex;
         }
 
+        .box:hover{
+            transform: translateY(5px);
+            border-color:#D62976;
+        }
+
         .box{
             width: 250px;
             height: 200px;
@@ -470,7 +478,10 @@
             height: 150px;
             border: 2px solid #ffffff38;
             border-radius: 30px;
-            
+        }
+
+        .card:hover{
+             transform: translateY(5px);
         }
 
         .card i{
@@ -480,8 +491,12 @@
         .card1{
             align-content: center;
             text-align: center;
-            
         }
+
+        .card1:hover{
+            border-color: orangered;
+        }
+
 
         .card1 p{
             font-size: 14px;
@@ -495,6 +510,10 @@
             align-content: center;
             text-align: center;
             
+        }
+
+        .card2:hover{
+            border-color: #0A66C2;
         }
 
         .card2 p{
@@ -511,6 +530,10 @@
             
         }
 
+        .card3:hover{
+            border-color: yellow;
+        }
+
         .card3 p{
             font-size: 14px;
             margin-top: 15px;
@@ -521,8 +544,11 @@
 
          .card4{
             align-content: center;
-            text-align: center;
-            
+            text-align: center; 
+        }
+
+        .card4:hover{
+            border-color: skyblue;
         }
 
         .card4 p{
@@ -537,7 +563,10 @@
          .card5{
             align-content: center;
             text-align: center;
-            
+        }
+
+        .card5:hover{
+            border-color: #7c52ff;
         }
 
         .card5 p{
@@ -551,8 +580,11 @@
 
          .card6{
             align-content: center;
-            text-align: center;
-            
+            text-align: center;  
+        }
+
+        .card6:hover{
+            border-color: skyblue;
         }
 
         .card6 p{
@@ -571,6 +603,26 @@
         .backend{
         padding-top: 100px;
         text-align: center;
+        }
+
+        .back_card:hover{
+             transform: translateY(5px);
+        }
+
+        .back1:hover{
+            border-color: yellow;
+        }
+
+         .back2:hover{
+            border-color: skyblue;
+        }
+
+         .back3:hover{
+            border-color: green;
+        }
+
+         .back4:hover{
+            border-color: greenyellow;
         }
 
         .backend h1{
@@ -603,6 +655,19 @@
             flex-direction: row;
             display: flex;
             padding-top: 35px;   
+        }
+
+        .tool:hover{
+            transform: translateY(5px);
+        }
+
+        .tool1:hover{
+            border-color: orange;
+        }
+
+        
+        .tool2:hover{
+            border-color: black;
         }
 
         .tools{
@@ -872,14 +937,15 @@
 
         /* Media query strt */
 
-        @media only screen and(max-width:900px) {
-            
+        @media only screen and (max-width:1000px) {
             .allboxes{
-
+                padding-left: 20px;
+                padding-right: 20px; 
+                  align-items: center;
+                  margin-top: 40px;
             }
             .box{
                 width: 200px;
-
             }
 
             .image img{
@@ -904,11 +970,47 @@
                 width: 650px;
                 height: auto;
             }
+            .name{
+                font-size: 90px;
+            }
+
+            .surname{
+                font-size: 90px;
+            }
+
+            .self{
+                font-size: 16px;
+            }
+
+            .cards{
+                align-items: center;
+            }
+
+            .card_info{
+                align-items: center;
+            }
+
+            .frontend{
+                padding-top: 50px;
+            }
+            .container1{
+                padding-left: 20px;
+            }
+        
         }
 
 
 
          @media  only screen and (max-width:700px){
+
+            .frontend h1{
+                font-size: 30px;
+            }
+
+            .frontend .fronthead{
+                font-size: 25px;
+            }
+            
             .bar{
                 display: flex;
             }
@@ -965,6 +1067,7 @@
            }
 
            .allboxes{
+            align-items: center;
             padding: 20px;
             flex-wrap: wrap;
             display: flex;
@@ -972,6 +1075,8 @@
            }
 
            .cards{
+            /* align-content: center; */
+            align-items: center;
             flex-wrap: wrap;
             display: flex;
             flex-direction: column; 
@@ -982,6 +1087,7 @@
            }
 
            .card_info{
+            align-items: center;
              flex-wrap: wrap;
             display: flex;
             flex-direction: column;
@@ -996,7 +1102,7 @@
             justify-content: start;
              }
 
-             .web_developer{
+             .web_developer {
                 width: 150px !important;
                 height: auto !important;
                 flex-wrap: wrap;
@@ -1018,6 +1124,10 @@
                 flex-wrap: wrap;
                 display: flex !important;
                 flex-direction: column !important;
+             }
+
+             .toolbar{
+                flex-wrap: wrap;
              }
 
              .my{
