@@ -1267,6 +1267,9 @@ color: #3fb8ff;
                   align-items: center;
                 }
 
+              
+
+
                 .part_one h1 {
                   font-size: 20px;
                   margin-left: -20px;
@@ -1301,6 +1304,7 @@ color: #3fb8ff;
                   width: 250px;
                   height: 200px;
                   padding: 20px;
+                  padding-top: 20px;
                   /* padding-top: 5px; */
                  }
 
@@ -1309,6 +1313,14 @@ color: #3fb8ff;
                   height: 200px;
                   padding: 20px;
                  }
+
+                .bca{
+                  padding-top: 20px;
+                }
+
+                .senior{
+                  padding-top: 20px;
+                }
 
                  .two_cards{
                   flex-wrap: wrap;
