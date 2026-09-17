@@ -1257,6 +1257,16 @@ color: #3fb8ff;
                   flex-wrap: wrap;
                 }
 
+                .part_one{
+                  flex-wrap: wrap;
+                }
+
+                .hero_section{
+                  flex-wrap: wrap;
+                  flex-direction: column;
+                  align-items: center;
+                }
+
                 .part_one h1 {
                   font-size: 20px;
                   margin-left: -20px;
