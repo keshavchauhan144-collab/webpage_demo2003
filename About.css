@@ -164,6 +164,59 @@
        /* Navbar end */
        /* Navbar enf */
 
+       .react i{
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.63); 
+        font-size: 35px;
+        padding: 15px;
+       }
+
+       .react{
+        z-index: 1;
+        position: relative;
+        top: 25px;
+        left: 410px;
+        animation: bounce 1s ease infinite;
+       }
+
+       @keyframes bounce {
+         0%, 100%{
+          transform: translateY(0);
+         }     
+         
+         50%{
+          transform: translateY(-20px);
+         }
+       }
+
+
+
+       .python i{
+        border-radius: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.63); 
+        font-size: 35px;
+        padding: 15px;
+       }
+
+       .python{
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+        animation: bounce 1s ease infinite;
+       }
+
+       @keyframes bounce {
+         0%, 100%{
+          transform: translateY(0);
+         }     
+         
+         50%{
+          transform: translateY(-20px);
+         }
+       }
+
+
+
 
        
 
@@ -171,6 +224,20 @@
             display: flex;
             padding-top: 90px;
             justify-content: space-evenly;
+        }
+
+        .bptp_img{
+          overflow: hidden;
+          border-radius: 30px ;
+        }
+
+        .hero_section_image img{
+          /* overflow: hidden; */
+        transition: transform 0.3s ease;
+        }
+
+        .hero_section_image img:hover{
+          transform: scale(1.05);
         }
 
 
@@ -885,6 +952,24 @@ color: #3fb8ff;
 
 
         @media only screen and (max-width:1000px) {
+
+           .react{
+        left: 0;
+        margin-left: 320px;
+      /* left: 180px; */
+      }
+
+      .react i{
+        padding: 10px;
+        font-size: 35px;
+      }
+
+      .python i{
+        padding: 10px;
+        font-size: 30px;
+      }
+
+
              .bar{
                 display: flex;
             }
@@ -1026,6 +1111,22 @@ color: #3fb8ff;
 
          @media only screen and (max-width:800px) {
 
+           .react{
+        left: 0;
+        margin-left: 320px;
+      /* left: 180px; */
+      }
+
+      .react i{
+        padding: 13px;
+        font-size: 38px;
+      }
+
+      .python i{
+        padding: 13px;
+        font-size: 38px;
+      }
+
            .life_beyond_section{
             
             justify-content: center;
@@ -1065,6 +1166,23 @@ color: #3fb8ff;
         /* media query according to the 700px */
 
         @media only screen and (max-width:700px) {
+
+           .react{
+        left: 0;
+        margin-left: 250px;
+      /* left: 180px; */
+      }
+
+      .react i{
+        padding: 12px;
+        font-size: 35px;
+      }
+
+      .python i{
+        padding: 12px;
+        font-size: 35px;
+      }
+
              .bar{
                 display: flex;
             }
@@ -1199,6 +1317,21 @@ color: #3fb8ff;
 
        @media only screen and (max-width:500px) {
 
+      .react{
+        left: 0;
+        margin-left: 190px;
+      /* left: 180px; */
+      }
+
+      .react i{
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      .python i{
+        padding: 10px;
+        font-size: 30px;
+      }
 
              .bar{
                 display: flex;
