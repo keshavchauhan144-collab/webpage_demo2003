@@ -15,6 +15,15 @@
           width: 100%;
           align-items: center;
         }
+
+         .navbar a{
+            cursor: pointer;
+            color: #8B1E25;
+        }
+
+        .navbar a:hover{
+            color: #3fb8ff;
+        }
         .sectionbar{
             /* margin-top: 100px; */
             display: flex;

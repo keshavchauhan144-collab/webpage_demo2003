@@ -21,6 +21,15 @@
           align-items: center;
         }
 
+         .navbar a{
+            cursor: pointer;
+            color: #8B1E25;
+        }
+
+        .navbar a:hover{
+            color: #3fb8ff;
+        }
+
         .bar{
              margin-top: 10px;
             font-size: 40px;
@@ -130,7 +139,7 @@
          transition: 0.2s linear;
         }
         .sectionbar li a:hover{
-         text-shadow: 0 0 8px white;
+         text-shadow: 0 0 8px #3fb8ff;
         }
 
         .sectionbar li a::after{
@@ -140,8 +149,8 @@
             bottom: 1px;
             width: 100%;
             height: 2px;
-            background: white;
-            box-shadow: 0 0 8px white;
+            background:#3fb8ff;
+            box-shadow: 0 0 8px #3fb8ff;
             transform: scaleX(0);
             transition: transform 0.3s ease;
         }
