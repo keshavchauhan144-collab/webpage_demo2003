@@ -101,6 +101,7 @@
              font-size: 18px;
         }
         .heading1{
+            
             margin-left: 40px;
             margin-top: 30px;
         }
@@ -181,6 +182,15 @@
              font-weight:800;
              font-style: normal;
             font-family: "Space Grotesk" 
+        }
+
+        .insta{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .youtube{
+            margin-right: 10px;
         }
 
         .intro{
@@ -940,6 +950,7 @@
         .footer_get h2{
             /* padding-top: 20px; */
             padding-bottom: 5px;
+            margin-top: 20px;
         }
 
 
