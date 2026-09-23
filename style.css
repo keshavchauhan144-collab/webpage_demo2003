@@ -1164,10 +1164,10 @@
                 flex-direction: column !important;
                 flex-wrap: wrap;
                 display: flex !important;
-                align-items: center;
-                text-align: center;
-                justify-items: center;
-                justify-content: center;
+                /* align-items: center; */
+                /* text-align: center; */
+                /* justify-items: center; */
+                /* justify-content: center; */
              }
 
              .backend h1 {
@@ -1182,10 +1182,122 @@
         }
 
         @media only screen and (max-width:400px) {
+
+            .intro{
+                padding: 0px 5px;
+            }
+
+
+            .button_center{
+                flex-wrap: wrap;
+            }
+
+
+            .insta{
+                margin-right: 7px;
+            }
+
+            .youtube{
+                margin-right: 7px;
+            }
+
+
+            .self{
+                padding: 5px 10px;
+            }
+
+                .allboxes {
+              align-items: center;
+              padding: 20px;
+               flex-wrap: wrap;
+               display: flex;
+               flex-direction: row;
+               gap: 15px;
+          }
+
+
+
+            .box{
+                width: 115px;
+                height: 180px;
+                padding: 0px 5px;  
+                /* flex-direction: column !important; */
+                
+                /* flex-wrap: wrap !important; */
+            }
+
+            .box button{
+                font-size: 21px;
+            }
+
+            .box  h1{
+                font-size: 20px;
+            }
+
+            .box h2{
+                font-size: 16px;
+            }
+
+            .box p{
+                font-size: 13px;
+                overflow-wrap: break-word;
+            }
+
+
+            .cards{
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            .card{
+                width: 120px;
+                height: 120px;
+            }
+
+            .card_info{
+               flex-direction: row;
+               flex-wrap: wrap;
+               gap: 15px;
+            }
+
+            .back_card{
+                 width: 120px;
+                height: 120px;
+            }
+
+
+             .toolbar{
+                 flex-direction: row;
+               flex-wrap: wrap;
+               gap: 15px;
+             }
+
+             .tool{
+                width: 120px;
+                height: 120px;
+             }
+
+
+             .business h1{
+                font-size: 28px;
+             }
+
+             .p_one{
+                font-size: 15px;
+                padding: 0px 10px;   
+                padding-bottom: 20px;
+                     }
+
+
+            .business button{
+                padding: 15px 30px;
+                font-size: 15px;
+            }
           
 
               .web_developer {
-                width: 250px !important;
+                width: 220px !important;
                 height: auto !important;
                 flex-wrap: wrap;
                   display: flex !important;
@@ -1193,7 +1305,7 @@
              }
 
              .freelancer{
-                  width: 250px !important;
+                  width: 220px !important;
                 height: auto !important;
                 flex-wrap: wrap;
                   display: flex !important;
@@ -1201,7 +1313,7 @@
              }
 
              .full{
-                  width: 250px !important;
+                  width: 220px !important;
                 height: auto !important;
                 flex-wrap: wrap;
                 display: flex !important;
