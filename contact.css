@@ -537,7 +537,8 @@
         }
 
         .footer_get h2{
-            padding-top: 20px;
+            /* padding-top: 20px; */
+            padding-bottom: 5px;
         }
 
 
@@ -617,13 +618,14 @@
 
           .footer{
                 margin-top: 100px;
+                flex-direction: column !important;
                 /* flex-direction: column !important; */
                 flex-wrap: wrap;
                 display: flex !important;
-                align-items: center;
+                /* align-items: center;
                 text-align: center;
                 justify-items: center;
-                justify-content: space-evenly;
+                justify-content: space-evenly; */
              }
 
              .backend h1 {
@@ -712,16 +714,6 @@
             padding-bottom: 15px;
         }
 
-          .footer{
-            margin-top: 70px;
-                flex-direction: column !important;
-                flex-wrap: wrap;
-                display: flex !important;
-                align-items: center;
-                text-align: center;
-                justify-items: center;
-                justify-content: center;
-             }
 
              .backend h1 {
                 font-size: 25px;
@@ -823,16 +815,7 @@
             padding-bottom: 15px;
         }
 
-          .footer{
-            margin-top: 50px;
-                flex-direction: column !important;
-                flex-wrap: wrap;
-                display: flex !important;
-                align-items: center;
-                text-align: center;
-                justify-items: center;
-                justify-content: center;
-             }
+         
 
              .backend h1 {
                 font-size: 25px;
@@ -950,17 +933,7 @@
             padding-bottom: 15px;
         }
 
-          .footer{
-            margin-top: 40px;
-                flex-direction: column !important;
-                flex-wrap: wrap;
-                display: flex !important;
-                align-items: center;
-                text-align: center;
-                justify-items: center;
-                justify-content: center;
-             }
-
+         
              .backend h1 {
                 font-size: 25px;
              }

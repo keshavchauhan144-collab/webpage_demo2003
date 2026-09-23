@@ -943,7 +943,8 @@ color: #3fb8ff;
         }
 
         .footer_get h2{
-            padding-top: 20px;
+            /* padding-top: 20px; */
+            padding-bottom: 5px;
         }
 
 
@@ -1009,6 +1010,14 @@ color: #3fb8ff;
                padding: 15px 12px;
                  } 
 
+                 .Mission_section{
+                  padding: 0px 30px;
+                 }
+
+                 .Mission_heading h1{
+                  padding-bottom: 30px;
+                 }
+
                  .Mission_card_three{
                   width: 300px;
                   height: auto;
@@ -1047,13 +1056,13 @@ color: #3fb8ff;
                  }
 
                   .footer{
-                flex-direction: column !important;
+                /* flex-direction: column !important;
                 flex-wrap: wrap;
                 display: flex !important;
                 align-items: center;
                 text-align: center;
                 justify-items: center;
-                justify-content: center;
+                justify-content: center; */
              }
 
              .backend h1 {
@@ -1061,7 +1070,7 @@ color: #3fb8ff;
              }
 
              .Quick h1{
-                padding-top: 30px;
+                /* padding-top: 30px; */
                 display: flex;
                 flex-wrap: wrap;
              }
@@ -1080,7 +1089,7 @@ color: #3fb8ff;
               display: flex;
               flex-wrap: wrap;
               flex-direction: column;
-              width: 800px;
+              width: 500px;
               height: auto;
              }
 
@@ -1310,6 +1319,12 @@ color: #3fb8ff;
               padding-top: 20px;
              }
 
+             .footer{
+               flex-direction: column !important;
+                flex-wrap: wrap;
+                display: flex !important;
+             }
+
         }
  
 
@@ -1317,6 +1332,12 @@ color: #3fb8ff;
       /* media query according to the 400px */
 
        @media only screen and (max-width:500px) {
+
+         .footer {
+               flex-direction: column !important;
+                flex-wrap: wrap;
+                display: flex !important;
+             }
 
       .react{
         left: 0;
