@@ -1207,18 +1207,19 @@
             }
 
                 .allboxes {
+                    justify-content: space-evenly !important;
               align-items: center;
               padding: 20px;
                flex-wrap: wrap;
                display: flex;
                flex-direction: row;
-               gap: 15px;
+               gap: 10px;
           }
 
 
 
             .box{
-                width: 115px;
+                width: 130px;
                 height: 180px;
                 padding: 0px 5px;  
                 /* flex-direction: column !important; */
@@ -1248,11 +1249,12 @@
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 15px;
+                /* justify-content: space-around; */
             }
 
             .card{
-                width: 120px;
-                height: 120px;
+                width: 140px;
+                height: 140px;
             }
 
             .card_info{
@@ -1262,8 +1264,8 @@
             }
 
             .back_card{
-                 width: 120px;
-                height: 120px;
+                 width: 140px;
+                height: 140px;
             }
 
 
@@ -1274,8 +1276,8 @@
              }
 
              .tool{
-                width: 120px;
-                height: 120px;
+                width: 140px;
+                height: 140px;
              }
 
 
