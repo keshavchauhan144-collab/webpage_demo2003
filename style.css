@@ -381,7 +381,7 @@
         }
 
         .mail{
-            border: 2x solid white;
+            border: 2x solid rgba(255, 255, 255, 0.616);
             width: auto;
             height: auto;
             padding: 15px;
@@ -403,6 +403,7 @@
             padding: 7px 2px 6px 6px;
             background: transparent;
             color: rgba(255, 255, 255, 0.65);
+            border: 2px solid rgba(255, 255, 255, 0.603);
         }
 
 
@@ -412,7 +413,7 @@
 
          .insta:hover{
           color: #D62976;
-          border-color: #D62976;
+          border: 2px solid #D62976;
          }
 
          .insta:hover a {
@@ -428,6 +429,7 @@
             padding: 7px 2px 6px 6px;
             background: transparent;
             color: rgba(255, 255, 255, 0.65);  
+            border: 2px solid rgba(255, 255, 255, 0.61);
         }
         .youtube a{
             color: rgba(255, 255, 255, 0.65);
@@ -435,7 +437,7 @@
 
         .youtube:hover{
             color: #FF0000;
-          border-color: #FF0000;
+          border:2px solid #FF0000;
         }
 
         .youtube:hover a{
@@ -448,6 +450,7 @@
             padding: 7px 2px 6px 6px;
             background: transparent;
             color: rgba(255, 255, 255, 0.65);
+            border: 2px solid rgba(255, 255, 255, 0.545);
         }
 
         .linkdin a{
@@ -476,11 +479,12 @@
             color: white;
             padding: 15px 30px 38px 30px;
             background-color: black;
-            color: white;
+            /* color: white; */
             margin-top: 20px;
         }
 
         .get:hover{
+            border: 2px solid rgba(255, 255, 255, 0.644);
          background-color: #fff;
          color: black;
           box-shadow: 0 0 10px #2A2020,
@@ -988,21 +992,30 @@
             padding: 2px;
         }
 
+        .linkdin_two{
+            border: 2px solid rgba(255, 255, 255, 0.599);
+        }
+
         .linkdin_two a{
             color: black;
             list-style: none;
             text-decoration: none;
             border-color: transparent;
+            /* border: 2px solid rgba(255, 255, 255, 0.442); */
         }
 
          .linkdin_two:hover{
             color: #0A66C2;
             background-color: #0A66C2;
-            border-color: #0A66C2;
+            border:2px solid #0A66C2;
         }
 
         .linkdin_two:hover a{
             color: white;
+        }
+
+        .insta_two{
+            border: 2px solid rgba(255, 255, 255, 0.647);
         }
 
 
@@ -1027,10 +1040,14 @@
             color: black;
         }
 
+        .git_hub{
+            border: 2px solid white;
+        }
+
           .git_hub:hover{
             color:white;
             background-color:black;
-            border-color: black;
+            border-color: white;
         }
 
         .git_hub:hover a{
@@ -1044,6 +1061,10 @@
          padding: 10px 5px 9px 9px;
          font-size: 18px;
          gap: 5px;
+        }
+
+        .Quick li a:hover{
+           color: #3fb8ff;
         }
 
         .Quick ul li{
@@ -1373,6 +1394,7 @@
             
 
            .image_button{
+            display: none;
           /* margin-top: 70px; */
           gap: 10px;
           padding: 8px;
@@ -1389,6 +1411,10 @@
 
            .button_heading p{
             font-size: 10px;
+           }
+
+           .image_button_two{
+            display: none;
            }
 
 

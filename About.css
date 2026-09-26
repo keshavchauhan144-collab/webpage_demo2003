@@ -925,6 +925,11 @@ color: #3fb8ff;
          gap: 5px;
         }
 
+         .Quick li a:hover{
+           color: #3fb8ff;
+        }
+
+
         .Quick ul li{
           list-style: none;
           line-height: 1.7;
