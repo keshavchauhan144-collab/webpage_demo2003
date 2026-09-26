@@ -228,21 +228,137 @@
             /* margin-left: 20px; */
             margin-top: 20px;
             letter-spacing: 2px;
-            font-weight: bolder;
-            font-size: 18px;
-            color: rgba(255, 255, 255, 0.80);
+            /* font-weight: bolder; */
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.62);
             font-family: Arial, Helvetica, sans-serif;
         }
-        .image video{
-            background: transparent;
-            content: "";
-               
+
+        .image_button{
+            position: relative;
+            top: -300px;
+            left: -50px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+           gap: 10px;
+           border: 2px solid rgba(128, 128, 128, 0.565);
+          background: transparent;
+          padding: 15px;
+          border-radius: 20px;
+          background-color: rgba(128, 128, 128, 0.88);
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .image_button:hover{
+            transform: scale(1.10);
+        }
+
+        .image_button i{
+            color: white;
+            font-size: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.075);
+            padding: 8px 8px;
+            border-radius: 10px;
+            background-color: rgba(172, 255, 47, 0.147);
+            color: greenyellow;
+        }
+
+        .image_button
+
+        .button_heading h1{
+            color: white;
+            font-size: 13px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 2px;
+        }
+
+        .button_heading p{
+            color: rgba(255, 255, 255, 0.733);
+            font-size: 13px;
+            word-spacing: 1px;
+            letter-spacing: 1px;
+        }
+
+        /* first button complete */
+
+        .image_button_two{
+            position: relative;
+            top: -550px;
+            right: -340px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+           gap: 10px;
+           border: 2px solid rgba(128, 128, 128, 0.565);
+          background: transparent;
+          padding: 15px;
+          border-radius: 20px;
+          background-color: rgba(128, 128, 128, 0.88);
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .image_button_two:hover{
+            transform: scale(1.10);
+        }
+
+        .image_button_two i{
+            color: white;
+            font-size: 20px;
+            border: 2px solid #0a66c280;
+            padding: 8px 8px;
+            border-radius: 10px;
+            background-color:#0a66c247;
+            color: #0A66C2;
         }
 
 
-        video{
-           mix-blend-mode: screen;
+        .button_heading_two h1{
+            color: white;
+            font-size: 13px;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 2px;
         }
+
+        .button_heading_two p{
+            color: rgba(255, 255, 255, 0.733);
+            font-size: 13px;
+            word-spacing: 1px;
+            letter-spacing: 1px;
+        }
+
+
+
+        .image {
+    height: 650px;
+    justify-content: center;  
+    object-fit: contain;
+    /* overflow: hidden; */
+}
+
+
+         .image img{
+         /* border-bottom-left-radius: 50%;
+         border-bottom-right-radius: 50%; */
+         border-radius: 20% 10% 50% 50%;
+         border-bottom: 4px solid #0A66C2;
+          transition: transform 0.3s ease-in-out;
+        
+         }
+
+          .image img:hover{
+            overflow: hidden;
+          transform: scale(1.02);
+        }
+
+
+
+         
+/* Tumhari photo */
+
+       
         
         .maindiv{
              display: flex;
@@ -1017,13 +1133,63 @@
             .frontend{
                 padding-top: 50px;
             }
-          
+
+            .maindiv{
+                justify-content: space-between;
+            }
+
+
+            .image{
+                margin-right: 50px;
+                margin-top: 50px;
+            }
+
+           .image_button{
+            margin-top: 160px;
+           }
+
+           .image_button_two{
+            position: relative;
+            left:180px;
+            
+            /* top: 0px; */
+           }
         
         }
 
 
+/* 
+         @media  only screen and (max-width:800px){
+            .maindiv{
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column-reverse;
+            }
+         } */
 
-         @media  only screen and (max-width:700px){
+
+         @media  only screen and (max-width:800px){
+
+            .image_button_two{
+                position: relative;
+             left: -50px !important;
+             top: -280px;
+             /* position: absolute; */
+            }
+
+             .image{
+                margin-left: 80px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+            
+            }
+
+           
+            .image{
+                height: 300px;
+            }
 
             .frontend h1{
                 font-size: 30px;
@@ -1036,6 +1202,7 @@
             .bar{
                 display: flex;
             }
+
 
             .navbar{
                 width: 100%;
@@ -1202,6 +1369,49 @@
         }
 
         @media only screen and (max-width:400px) {
+
+            
+
+           .image_button{
+          /* margin-top: 70px; */
+          gap: 10px;
+          padding: 8px;
+           }
+
+           .image_button i{
+            font-size: 14px;
+           }
+
+           .button_heading h1{
+             font-size: 11px !important;
+
+           }
+
+           .button_heading p{
+            font-size: 10px;
+           }
+
+
+            
+           .image_button_two i{
+            font-size: 14px;
+           }
+
+           .button_heading_two h1{
+             font-size: 11px !important;
+
+           }
+
+           .button_heading_two p{
+            font-size: 10px;
+           }
+
+               .image {
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 250pxs;
+    }
 
             .intro{
                 padding: 0px 5px;
