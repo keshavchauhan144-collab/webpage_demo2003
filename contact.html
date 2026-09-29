@@ -59,22 +59,23 @@
             </div>
          </div>
 
-
+        <form action="https://formspree.io/f/mbglwoyv" method="Post">
          <div class="message_box">
           <h1>Send Message</h1>
           <div class="details">
           <h3>Your Name</h3>
-          <input type="text" placeholder="Enter Your Full Name">
+          <input type="text" name="name" placeholder="Enter Your Full Name" required>
 
           <h3>Email Address</h3>
-          <input type="text" placeholder="Enter Your Email Address">
+          <input type="text" name="email" placeholder="Enter Your Email Address" required>
 
           <h3>Message</h3>
-          <input class="message-input" type="text" placeholder="How can I help you ?">
+          <textarea class="message-input" name="message" type="text" placeholder="How can I help you ?" required></textarea>
           <br>
            <button class="send"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
           </div>
          </div>
+        </form>
         </div>
     </section>
 

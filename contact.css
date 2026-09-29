@@ -342,8 +342,12 @@
          }
 
          .message-input{
+            width: 325px;
             height: 80px;
             margin-bottom: 30px;
+            border-radius: 30px;
+            text-align: center;
+            align-content: center;
          }
 
          .send{
@@ -553,6 +557,12 @@
 
         
         @media only screen and (max-width:1000px){
+
+            .message-input{
+                 width: 200px;
+            }
+
+
              .bar{
                 display: flex;
             }
@@ -740,6 +750,12 @@
 
 
         @media only screen and (max-width:500px){
+
+             .message-input{
+                 width: 185px;
+            }
+
+
              .contact{
                 width: 290px;
                 height: auto;
@@ -842,6 +858,12 @@
 
 
          @media only screen and (max-width:300px){
+
+              .message-input{
+                 width: 175px;
+                 height: 60px;
+            }
+
              .send{
              margin-bottom: 20px;
              }
